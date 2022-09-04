@@ -1,0 +1,25 @@
+{
+  "name": "scraping-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joseenriqe97/scraping-node.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joseenriqe97/scraping-node/issues"
+  },
+  "homepage": "https://github.com/joseenriqe97/scraping-node#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cheerio": "^1.0.0-rc.12",
+    "pretty": "^2.0.0"
+  }
+}
