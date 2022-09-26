@@ -19,8 +19,6 @@ async function initScraping() {
             }
         });
         return cruisesInfo;
-
-
     });
 
     filterJson = JSON.stringify(data, (k, v) => Array.isArray(v)
