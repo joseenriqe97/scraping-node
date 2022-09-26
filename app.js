@@ -26,7 +26,7 @@ async function initScraping() {
     filterJson = JSON.stringify(data, (k, v) => Array.isArray(v)
         && !(v = v.filter(e => e)).length ? void 0 : v, 2)
 
-    fs.writeFile("Cruises.json", filterJson, (err) => {
+    fs.writeFile("cruises.json", filterJson, (err) => {
         if (err) {
           console.error(err);
           return;
